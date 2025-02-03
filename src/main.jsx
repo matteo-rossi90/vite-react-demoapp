@@ -9,11 +9,13 @@ const root = createRoot(document.getElementById('root'))
   root.render(
     <StrictMode>
       <App />
-      <Clock />
+      <Clock country='ITALY' timeshow="0"/> 
+      <Clock country='RUSSIA' timeshow="3" />
+      <Clock country='CUBA' timeshow="-6" />
     </StrictMode>,
   )
 
-
+//le proprietà di quella componente devono essere scritte come attributi e poi passate come props
 
 
 
